@@ -49,7 +49,7 @@ const TestScreen = () => {
     // config: To get response by passing the downloading related options
     // fs: Root directory path to download
     const {config, fs} = RNFetchBlob;
-    let pathToFile = fs.dirs.DownloadDir + `/my-file.pdf`;
+    let pathToFile = fs.dirs.DownloadDir + `/test.pdf`;
     let options = {
       addAndroidDownloads: {
         fileCache: true,
